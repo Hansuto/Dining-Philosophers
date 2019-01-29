@@ -6,20 +6,20 @@ Dijkstra's classic concurrency exercise written in Go.
 My program usees GoLang version 1.11.4. To install the latest version of Go, run the 
 following command:
 
-		sudo snap install go --classic
+	sudo snap install go --classic
 		
 To verify installation run the following command:
 
-		go version
+	go version
 		
 You should see this output if installation comleted successfully:
 
-		go version go1.11.4 linux/amd64
+	go version go1.11.4 linux/amd64
     
 In my implementation you're allowed to pick the number of philosophers 'n' where 1 ≤ n < ∞. 
 To run the program, enter the following command:
 
-    go run philosophers.go n
+	go run philosophers.go n
 		
 
 ## Explanation
